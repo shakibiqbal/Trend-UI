@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+  max-width: 100vh;
+  height: auto;
+   
+}
+.navbar-container{
+    display:flex;
+
+    
+}
+.navbar-container img{
+    padding: 30px 70px; 
+    width: 120px;
+    
+    
+}
+.list{
+    list-style-type: none;
+    padding-left: 10%;
+    display:inline-flex;
+    /* background-color: antiquewhite; */
+    
+}
+.list-item{
+    float: left;
+    padding-top: 40px;
+    font-family: Orbitron;
+    padding-left:40px ;
+   
+    font-weight: 600;
+
+
+
+}
+.button-group{
+    float:right;
+     display:flex; 
+    padding-top: 20px;
+    position: relative;
+    left: 200px;
+    top:18px;
+    
+ 
+}
+.search-icon{
+padding-right: 10px;;
+}
+
+
+.nav-button{
+    float:right;
+    border: 1px solid black;
+    width:auto;
+    padding: 6px 30px  ;
+    border-radius: 9px;
+    font-family: Poppins;
+    font-weight: 100;
+    background-color: transparent;
+ }
+.hero-container{
+    display: flex;
+}
+
+.square>img{    
+    width: 300px;
+    position: relative;
+    top:190px;
+    left:170px;
+    
+
+
+}
+.star>img{
+    position: absolute;
+    left: 90%;
+    top: 160px;
+    width: 40px;
+}
+.globe>img{
+    position: absolute;
+    left: 50%;
+    width: 50px;
+
+}
+.imgs >img{
+    width: 320px;
+  position: absolute;
+  top:150px;
+  left: 90px;
+  z-index: 2;
+   
+
+}
+.hero-container-right{
+  display: block;
+}
+.hero-heading{
+    position:absolute;
+    width: auto;
+    left: 43%;
+    top: 40%;
+    font-family:Orbitron;
+    font-weight: 800;
+    font-size:45px;
+    text-align: center;
+}
+.hero-description{
+    position:absolute;
+    width: auto;
+    left: 48%;
+    top: 52%;
+    font-family:Poppins;
+    font-weight: 2;
+    max-width: 300px;
+    font-size:small;
+    text-align: center;   
+    max-width: 476px;
+    
+}
+
+
+.button-email{ position:absolute;
+    width: auto;
+    left: 55%;
+    top: 67%;
+    font-family:Orbitron;
+    border: 2px solid black;
+    width:auto;
+    padding: 0px 10px  ;
+    border-radius: 6px;
+    background-color: transparent
+    
+}
+.button-join{
+    position:absolute;
+    width: auto;
+    left: 70%;
+    top: 67%;
+    font-family:Orbitron;
+    border: 2px solid black;
+    width:auto;
+    color:#ffffff;
+    background-color: #000000;
+    padding: 0px 5px  ;
+    border-radius: 6px;
+}
+.contact-heading{
+    position:absolute;
+    width: auto;
+    left: 65%;
+    top: 80%;
+    font-family:Poppins;
+    font-weight: 200;
+    font-size: small;
+}
+
+.icons{
+    
+    position:absolute;
+    width: auto;
+    left: 63%;
+    top: 85%;
+    font-family:Poppins;
+    font-weight: 200;
+    font-size: small;
+
+}
+.icons span img{
+    width: 30px;
+    opacity: 0.9;
+ 
+}
